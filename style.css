@@ -1,0 +1,68 @@
+
+# {
+    margin: 0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+.training-section {
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.training-section h1 {
+    text-align: center;
+    padding: 25px 0px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+.training-items {
+    flex-basis: 23%;
+    margin: 10px 0px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px lightgrey;
+    
+}
+.training-items:hover {
+    background-color: rgb(209, 209, 221);
+}
+
+
+.training-items h3{
+    padding: 10px 0px;
+    font-size: 23px;
+}
+.training-items p{
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 10px;
+
+}
+.training-items button{
+    padding: 10px 25px;
+    background: rgb(97, 97, 152);
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+    color: aliceblue;
+    font-size: 1em;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px)
+{
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .training-items{
+        margin: 15px;
+    }
+}
