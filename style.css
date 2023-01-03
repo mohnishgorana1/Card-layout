@@ -66,3 +66,14 @@
         margin: 15px;
     }
 }
+@media only screen and (min-width:600px) and (max-width:1000px)
+{
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .training-items{
+        margin: 15px;
+    }
+}
+
